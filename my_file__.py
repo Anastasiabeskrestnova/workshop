@@ -16,4 +16,4 @@ with open("textik.txt") as my_file:
                 # print(sorted_by_values)
                 renew_file.write(value[0]+ " - " + str(value[1]) + "\n")
             renew_file.write(" ".join(second_file.keys()))
- 
+#  pic pci p
