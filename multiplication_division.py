@@ -26,9 +26,9 @@ def multiply2(lho, rho):
 def div(lho, rho):
     print("Hey Nastya")
     x = 0
-    one_diff = lho
-    while not one_diff == 0:
-        one_diff += rho
+    one_act_difference = lho
+    while not one_act_difference == 0:
+        one_act_difference += rho
         x += 1
 
     return x
