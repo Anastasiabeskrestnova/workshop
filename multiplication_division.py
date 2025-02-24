@@ -16,7 +16,7 @@ print("ssssssss")
 v = 200
 
 
-def multiply2(lho, rho):
+def multiply_alternative(lho, rho):
     lho_rho_times = 0
     for _ in range(rho):
         lho_rho_times += lho
