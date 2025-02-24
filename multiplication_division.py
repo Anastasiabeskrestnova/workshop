@@ -12,7 +12,7 @@ def multiply(lho, rho):
     return lho_sum
 
 
-print("ssssssss")
+print("ssssssssaaaaaaaachhhhoo")
 v = 200
 
 
@@ -24,11 +24,11 @@ def multiply_alternative(lho, rho):
 
 
 def div(lho, rho):
-    print("Hey Nastya")
+    print("Hey Dima")
     x = 0
     one_act_difference = lho
     while not one_act_difference == 0:
         one_act_difference += rho
         x += 1
 
-    return x
+    return b
