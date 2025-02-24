@@ -5,14 +5,17 @@ def multiply(lho, rho):
             lho_sum = lho_sum + lho
     elif rho == 0:
         lho_sum = 0
-    elif rho == 1: 
+    elif rho == 1:
         lho_sum = lho
     elif rho == 2:
         lho_sum = lho + lho
     return lho_sum
 
+
 print("ssssssss")
 v = 200
+
+
 def multiply2(lho, rho):
     lho_rho_times = 0
     for _ in range(rho):
@@ -21,10 +24,11 @@ def multiply2(lho, rho):
 
 
 def div(lho, rho):
+    print("Hey Nastya")
     x = 0
     one_act_difference = lho
     while not one_act_difference == 0:
-            one_act_difference += rho  
-            x += 1
+        one_act_difference += rho
+        x += 1
 
     return x
